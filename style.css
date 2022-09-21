@@ -1,0 +1,54 @@
+.background-grey {
+    background-color: rgb(53, 58, 64);
+}
+
+.background-img {
+    filter: brightness(50%);
+}
+
+.btn-white {
+    background-color: transparent !important;
+    border-color: white;
+}
+
+.content-img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 35rem;
+    right: 10%;
+}
+
+.skills-orador{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.orange-skill{
+    color: black;
+    background-color: orange;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.lightblue-skill{
+    color: white;
+    background-color: lightseagreen;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.grey-skill{
+  color: white;
+  background-color: gray;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.red-skill{
+  color: white;
+  background-color: red;
+  padding: 2px 5px;
+  border-radius: 5px;
+}

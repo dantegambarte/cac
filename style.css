@@ -1,54 +1,89 @@
 .background-grey {
-    background-color: rgb(53, 58, 64);
+  background-color: rgb(53, 58, 64);
+}
+
+.background-darkblue {
+  background: rgb(28, 54, 67);
+  background: linear-gradient(90deg, rgba(28, 54, 67, 1) 0%, rgba(29, 70, 92, 1) 50%, rgba(29, 82, 113, 1) 100%);
 }
 
 .background-img {
-    filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.background-lima {
+  background-color: rgb(150, 201, 62);
+  border-radius: 10px;
+  outline: none;
+  border: none;
 }
 
 .btn-white {
-    background-color: transparent !important;
-    border-color: white;
+  background-color: transparent !important;
+  border-color: white;
 }
 
-.content-img{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute;
-    top: 35rem;
-    right: 10%;
+.content-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 35rem;
+  right: 10%;
 }
 
-.skills-orador{
-    display: flex;
-    gap: 0.5rem;
+.skills-orador {
+  display: flex;
+  gap: 0.5rem;
 }
 
-.orange-skill{
-    color: black;
-    background-color: orange;
-    padding: 2px 5px;
-    border-radius: 5px;
-}
-
-.lightblue-skill{
-    color: white;
-    background-color: lightseagreen;
-    padding: 2px 5px;
-    border-radius: 5px;
-}
-
-.grey-skill{
-  color: white;
-  background-color: gray;
+.orange-skill {
+  color: black;
+  background-color: rgb(252, 193, 1);
   padding: 2px 5px;
   border-radius: 5px;
 }
 
-.red-skill{
+.lightblue-skill {
   color: white;
-  background-color: red;
+  background-color: rgb(22, 161, 182);
   padding: 2px 5px;
   border-radius: 5px;
+}
+
+.grey-skill {
+  color: white;
+  background-color: rgb(108, 117, 124);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.red-skill {
+  color: white;
+  background-color: rgb(220, 55, 71);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.footer {
+  align-items: center;
+  gap: 5rem;
+}
+
+.content-form-speaker {
+  display: flex;
+  justify-content: center;
+}
+
+.form-speaker {
+  width: 50%;
+}
+
+.underline {
+  text-decoration: underline dotted;
+}
+
+.text-area-speaker::placeholder {
+  padding: 5px;
+  font-size: 25px;
 }

@@ -95,7 +95,7 @@
     flex-direction: column;
     align-items: center;
     padding: 2px;
-    top: 5rem;
+    top: 10%;
     right: 0;
   }
   .content-img h1{
@@ -106,12 +106,12 @@
   }
   .text-conf{
     width: 100%;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     margin-bottom: 1px;
   }
   .btn-text-conf{
-    height: 2.2rem;
-    font-size: 2px;
+    height: 2.5rem;
+    margin-top: 1rem;
   }
   .buttons-conf{
     display: flex;
@@ -150,7 +150,7 @@
     flex-direction: column;
     align-items: flex-end;
     position: absolute;
-    top: 35rem;
+    top: 20%;
     right: 10%;
   }
   .form-speaker {

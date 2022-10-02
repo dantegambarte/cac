@@ -62,11 +62,6 @@
   border-radius: 5px;
 }
 
-.footer {
-  align-items: center;
-  gap: 5rem;
-}
-
 .content-form-speaker {
   display: flex;
   justify-content: center;
@@ -122,6 +117,11 @@
   .gap-input{
     gap: 0.5rem;
   }
+  
+.footer {
+  align-items: center;
+  gap: 1.5rem;
+}
 }
 /* tablets */
 @media (max-width: 992px) {
@@ -160,4 +160,9 @@
   .gap-input{
    gap: 2rem; 
   }
+  
+.footer {
+  align-items: center;
+  gap: 5rem;
+}
 }

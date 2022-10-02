@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -76,16 +76,16 @@
   font-size: 25px;
 }
 
-.content-conf{
+.content-conf {
   text-align: left;
 }
 
 /* telefono */
-@media (max-width: 768px) {
-  .card-width{
+@media (max-width: 480px) {
+  .card-width {
     margin: 1rem;
   }
-  .content-img{
+  .content-img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,55 +93,101 @@
     top: 10%;
     right: 0;
   }
-  .content-img h1{
+  .content-img h1 {
     margin-bottom: 0;
   }
-  .content-conf{
+  .content-conf {
     text-align: center;
   }
-  .text-conf{
+  .text-conf {
     width: 100%;
     font-size: 1.3rem;
     margin-bottom: 1px;
   }
-  .btn-text-conf{
+  .btn-text-conf {
     height: 2.5rem;
     margin-top: 1rem;
   }
-  .buttons-conf{
+  .buttons-conf {
     display: flex;
   }
   .form-speaker {
     margin: 0 1rem;
   }
-  .gap-input{
+  .gap-input {
     gap: 0.5rem;
   }
-  
-.footer {
-  align-items: center;
-  gap: 1.5rem;
-}
+
+  .footer {
+    align-items: center;
+    gap: 1.5rem;
+  }
 }
 /* tablets */
-@media (max-width: 992px) {
+@media (min-width: 480px) and (max-width: 960px) {
+  .content-img {
+    top: 0.1rem;
+    margin: 2rem;
+    font-size: 2rem;
+  }
+  .content-img h1 {
+    font-size: 3rem;
+  }
+  .text-conf {
+    font-size: 2rem;
+  }
+  .card-width {
+    margin: 3rem;
+  }
+  .orange-skill {
+    font-size: 2rem;
+  }
+  .lightblue-skill {
+    font-size: 2rem;
+  }
+  .red-skill {
+    font-size: 2rem;
+  }
+  .grey-skill {
+    font-size: 2rem;
+  }
+  .name-orador {
+    font-size: 3rem;
+  }
+  .description-orador {
+    font-size: 2rem;
+  }
+
+  .form-speaker div h6 {
+    font-size: 1.5rem;
+  }
+
+  .form-speaker div p {
+    font-size: 1.2rem;
+  }
+  .form-speaker div h2 {
+    font-size: 2rem;
+  }
+  .label-form-speaker {
+    font-size: 1.2rem;
+  }
 }
 
 /* desktops */
-@media (min-width: 992px) {
-  .navbar-pl{
+@media (min-width: 960px) {
+  .navbar-pl {
     padding-left: 8rem;
   }
-  .navbar-pr{
+  .navbar-pr {
     padding-right: 8rem;
   }
   .content-cards {
     display: flex;
   }
-  .card-width{
+  .card-width {
     width: 18rem;
   }
-  .text-conf{
+  .text-conf {
     width: 47rem;
     font-size: 1.5rem;
     text-align: right;
@@ -157,12 +203,19 @@
   .form-speaker {
     width: 50%;
   }
-  .gap-input{
-   gap: 2rem; 
+  .gap-input {
+    gap: 2rem;
   }
-  
-.footer {
-  align-items: center;
-  gap: 5rem;
-}
+
+  .footer {
+    align-items: center;
+    gap: 5rem;
+  }
+  .container-card-img-text {
+    display: block !important;    
+    column-count: 2;
+  }
+  .container-card-img-text {
+    background-color: rgb(53, 58, 64);
+  }
 }

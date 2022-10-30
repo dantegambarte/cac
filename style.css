@@ -218,4 +218,16 @@
   .container-card-img-text {
     background-color: rgb(53, 58, 64);
   }
+
+  .content-panels{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .panel-content{
+    text-align: center;
+    margin: 1rem;
+  }
 }

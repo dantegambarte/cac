@@ -40,7 +40,7 @@
 
   <section>
     <div class="content-panels">
-      <div class="border border-primary mb-3" style="max-width: 18rem;">
+      <div class="border border-primary mb-3">
         <div class="card-body panel-content">
           <h5 class="card-title mb-4">Estudiante</h5>
           <p class="card-text">Tiene un descuento</p>
@@ -48,7 +48,7 @@
           <p class="card-text text-secondary">* presentar documentación</p>
         </div>
       </div>
-      <div class="border border-info mb-3" style="max-width: 18rem;">
+      <div class="border border-info mb-3">
         <div class="card-body panel-content">
           <h5 class="card-title mb-4">Trainee</h5>
           <p class="card-text">Tiene un descuento</p>
@@ -56,7 +56,7 @@
           <p class="card-text text-secondary">* presentar documentación</p>
         </div>
       </div>
-      <div class="border border-warning mb-3" style="max-width: 18rem;">
+      <div class="border border-warning mb-3">
         <div class="card-body panel-content">
           <h5 class="card-title mb-4">Junior</h5>
           <p class="card-text">Tiene un descuento</p>
@@ -68,8 +68,8 @@
   </section>
 
   <section>
-    <div class="text-center">  
-      <p>VENTA</p> 
+    <div class="text-center">
+      <p>VENTA</p>
       <h1>VALOR DEL TICKET $200</h1>
     </div>
     <form class="row g-3 content-form-buy-ticket">
@@ -84,22 +84,22 @@
       </div>
       <div class="col-md-6">
         <label for="inputCantidad" class="form-label">Cantidad</label>
-        <input type="text" class="form-control" id="inputCantidad" placeholder="Cantidad">
+        <input type="number" class="form-control" id="inputCantidad" value="1" placeholder="Cantidad">
       </div>
       <div class="col-md-6">
         <label for="inputCategoria" class="form-label">Categoria</label>
-        <select id="inputCategoria" class="form-select">
-          <option selected value="1">Estudiante</option>
-          <option value="2">Trainee</option>
-          <option value="2">Junior</option>
+        <select id="inputCategoria" name="inputCategoria" class="form-select">
+          <option selected value="student">Estudiante</option>
+          <option value="trainee">Trainee</option>
+          <option value="junior">Junior</option>
         </select>
       </div>
       <div class="alert alert-primary mt-4" role="alert">
-        Total a pagar: $
+        Total a pagar: $<span id="priceTotal"></span>
       </div>
       <div class="content-buttons-buy-ticket">
-        <button class="background-lima rounded text-light py-2 fs-5 w-100" type="button">Borrar</button>
-        <button class="background-lima rounded text-light py-2 fs-5 w-100" type="button">Resumen</button>
+        <button class="background-lima rounded text-light py-2 fs-5 w-100" type="button" onclick="clearPrice()">Borrar</button>
+        <button class="background-lima rounded text-light py-2 fs-5 w-100" type="button" onclick="viewPrice()">Resumen</button>
       </div>
     </form>
   </section>
@@ -121,6 +121,8 @@
     </nav>
   </footer>
 </body>
+
+<script src="./main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
   integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"

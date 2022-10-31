@@ -212,22 +212,36 @@
     gap: 5rem;
   }
   .container-card-img-text {
-    display: block !important;    
+    display: block !important;
     column-count: 2;
   }
   .container-card-img-text {
     background-color: rgb(53, 58, 64);
   }
 
-  .content-panels{
+  .content-panels {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
   }
 
-  .panel-content{
+  .panel-content {
     text-align: center;
     margin: 1rem;
+  }
+
+  .content-form-buy-ticket {
+    margin: 0 26% !important;
+  }
+
+  .gap-input-ticket{
+    gap: 0.5rem;
+  }
+
+  .content-buttons-buy-ticket{
+    gap: 1rem;
+    display: flex;
+    margin-bottom: 6rem;
   }
 }

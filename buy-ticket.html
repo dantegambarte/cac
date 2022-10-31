@@ -27,11 +27,11 @@
             <a class="nav-link active text-light fs-5" aria-current="page" href="#">Conf Bs As</a>
           </div>
           <div class="navbar-nav">
-            <a class="nav-link text-light" href="./index.html">La conferencia</a>
+            <a class="nav-link text-secondary" href="./index.html">La conferencia</a>
             <a class="nav-link text-secondary" href="#">Los oradores</a>
             <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
             <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
-            <a class="nav-link" style="color: rgb(42, 168, 69)" href="#">Comprar tickets</a>
+            <a class="nav-link text-light" href="#">Comprar tickets</a>
           </div>
         </div>
       </div>
@@ -67,6 +67,43 @@
     </div>
   </section>
 
+  <section>
+    <div class="text-center">  
+      <p>VENTA</p> 
+      <h1>VALOR DEL TICKET $200</h1>
+    </div>
+    <form class="row g-3 content-form-buy-ticket">
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+      </div>
+      <div class="col-md-6  ">
+        <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+      </div>
+      <div class="col-12">
+        <input type="email" class="form-control" id="inputCorreo" placeholder="Correo">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCantidad" class="form-label">Cantidad</label>
+        <input type="text" class="form-control" id="inputCantidad" placeholder="Cantidad">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCategoria" class="form-label">Categoria</label>
+        <select id="inputCategoria" class="form-select">
+          <option selected value="1">Estudiante</option>
+          <option value="2">Trainee</option>
+          <option value="2">Junior</option>
+        </select>
+      </div>
+      <div class="alert alert-primary mt-4" role="alert">
+        Total a pagar: $
+      </div>
+      <div class="content-buttons-buy-ticket">
+        <button class="background-lima rounded text-light py-2 fs-5 w-100" type="button">Borrar</button>
+        <button class="background-lima rounded text-light py-2 fs-5 w-100" type="button">Resumen</button>
+      </div>
+    </form>
+  </section>
+
   <footer>
     <nav class="navbar navbar-expand-lg background-darkblue">
       <div class="container-fluid justify-content-evenly" style="padding: 0 8rem ;">
@@ -84,6 +121,9 @@
     </nav>
   </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
 </html>

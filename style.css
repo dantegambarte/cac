@@ -117,22 +117,18 @@
   .gap-input {
     gap: 0.5rem;
   }
-
   .footer {
     align-items: center;
     gap: 1.5rem;
   }
-
-  .content-panels{
+  .content-panels {
     margin: 1rem;
     text-align: center;
   }
-
   .content-form-buy-ticket {
-  margin: 1rem;
+    margin: 1rem !important;
   }
-
-  .content-buttons-buy-ticket{
+  .content-buttons-buy-ticket {
     display: flex;
     gap: 1rem;
   }
@@ -171,11 +167,9 @@
   .description-orador {
     font-size: 2rem;
   }
-
   .form-speaker div h6 {
     font-size: 1.5rem;
   }
-
   .form-speaker div p {
     font-size: 1.2rem;
   }
@@ -184,6 +178,17 @@
   }
   .label-form-speaker {
     font-size: 1.2rem;
+  }
+  .content-panels {
+    margin: 1rem;
+    text-align: center;
+  }
+  .content-form-buy-ticket {
+    margin: 1rem !important;
+  }
+  .content-buttons-buy-ticket {
+    display: flex;
+    gap: 1rem;
   }
 }
 
@@ -220,7 +225,6 @@
   .gap-input {
     gap: 2rem;
   }
-
   .footer {
     align-items: center;
     gap: 5rem;
@@ -232,29 +236,24 @@
   .container-card-img-text {
     background-color: rgb(53, 58, 64);
   }
-
   .content-panels {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
   }
-
   .panel-content {
     text-align: center;
     margin: 1rem;
     max-width: 18rem;
   }
-
   .content-form-buy-ticket {
     margin: 0 26% !important;
   }
-
-  .gap-input-ticket{
+  .gap-input-ticket {
     gap: 0.5rem;
   }
-
-  .content-buttons-buy-ticket{
+  .content-buttons-buy-ticket {
     gap: 1rem;
     display: flex;
     margin-bottom: 6rem;
